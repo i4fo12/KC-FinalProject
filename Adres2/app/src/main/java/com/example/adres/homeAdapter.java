@@ -26,7 +26,7 @@ public class homeAdapter extends ArrayAdapter<Home1> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.ghj,parent,false);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.newandroid,parent,false);
 
         Home1 currenthome = Home1List.get(position);
 

@@ -82,8 +82,13 @@ public class HomeFragment extends Fragment {
         Home1 m3 = new Home1("Making Inferences",R.drawable.gg,"In order to make conclusions about something that is not explicitly stated in the text, students must learn to rely on previous knowledge and recognize clues in the text itself.");
         Home1 m2 = new Home1("Visualization",R.drawable.gg,"Studies have shown that students who fantasize while reading remember better than those who don't. Readers can take advantage of illustrations embedded in the text or create their own images or mind drawings when reading text without illustrations.");
         Home1 m1 = new Home1("Expectation",R.drawable.gg,"Teachers can ask readers to make a prediction about a story based on the title and any other available evidence, such as illustrations. Teachers can later ask students to find text that supports or contradicts their expectations.");
+        Home1 b1 = new Home1("Friends",R.drawable.friends,"Weekend Activities");
+        Home1 b2 = new Home1("Avenues",R.drawable.avn,"Weekend Activities");
+        Home1 b3 = new Home1("New Language",R.drawable.ne,"Learning a new language is one of the most important activities of the week");
 
-
+        homes.add(b3);
+        homes.add(b2);
+        homes.add(b1);
         homes.add(m1);
         homes.add(m2);
         homes.add(m3);

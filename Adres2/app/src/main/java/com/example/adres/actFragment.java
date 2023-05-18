@@ -41,9 +41,15 @@ public class actFragment extends Fragment {
 
         act c1 = new act("playstation ",R.drawable.play,"Weekend Activities");
         act c2 = new act("sport",R.drawable.sport,"Weekend Activities");
+        act c3 = new act("Avenues",R.drawable.avn,"Weekend Activities");
+        act c4 = new act("Friends",R.drawable.friends,"Weekend Activities");
+        act c5 = new act("New Language",R.drawable.ne,"Learning a new language is one of the most important activities of the week");
 
         acts.add(c1);
         acts.add(c2);
+        acts.add(c3);
+        acts.add(c4);
+        acts.add(c5);
 
         ActAdapter arrayAdapter = new ActAdapter(getActivity() , 0 , acts);
 

@@ -9,13 +9,13 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="483dp"
+        android:layout_height="730dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bm" />
+        app:srcCompat="@drawable/alll" />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -23,10 +23,10 @@
         android:layout_height="190dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082"
+        app:layout_constraintVertical_bias="0.034"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -34,15 +34,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="@color/ic_launcher_background"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/ic_launcher_background"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <ScrollView
         android:id="@+id/b"
@@ -60,6 +60,7 @@
 
             <TextView
                 android:id="@+id/act4"
+                android:layout_marginTop="100dp"
                 android:layout_width="410dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
